@@ -12,3 +12,20 @@ body {
   height: 100vh;
   overflow-y: hidden;
 }
+
+footer img {
+  width: 5%;
+}
+
+footer {
+  position: fixed;
+  bottom: 4%;
+  width: 100%;
+  background-color: #fff; /* Ganti dengan warna latar belakang yang Anda inginkan */
+}
+
+@media screen and (max-width: 600px) {
+  footer img {
+    width: 15%;
+  }
+}
